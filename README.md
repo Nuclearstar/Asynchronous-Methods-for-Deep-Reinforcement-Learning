@@ -40,20 +40,21 @@ We present asynchronous variants of three standard reinforcement learning algori
 - Q-function with a neural network, that takes the state and action as input and outputs the corresponding Q-value.
 
 - One forward pass through the network and having all Q-values for all actions available is made use of.
-(![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/q.JPG))
+![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/q.JPG)
 
 ### 2. Environment
 
-(![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/preprocess.png))
+![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/preprocess.png)
 
 ### 3. Architecture of the network
 
-(![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/network.png))
+![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/network.png)
 
 ## Implementation
 
 Flappy bird game is used for the implementation.
-(![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/flappy_bird_demp.gif))
+
+![alt text](https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning/blob/master/images/flappy_bird_demp.gif)
 
 ## Conclusion and future work 
 

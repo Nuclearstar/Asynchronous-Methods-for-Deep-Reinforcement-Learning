@@ -4,15 +4,42 @@ The project proposes a conceptually simple and lightweight framework for deep re
 
 ## Installation Dependencies:
 
-- Python 2.7 or 3
+- Python 3
 - Tensorflow 
 - pygame
 - OpenCV-Python
 
 ## How to run?
+
+- First clone the project into your local system
 ```
 git clone https://github.com/Nuclearstar/Asynchronous-Methods-for-Deep-Reinforcement-Learning.git
+```
+- Then change directory to this project
+```
 cd Asynchronous-Methods-for-Deep-Reinforcement-Learning
+```
+- Then setup a virtual env
+```
+python -m venv myenv
+```
+- Then activate your virtual env
+```
+cd myenv
+cd Scripts
+activate
+```
+- Further change directory to project root
+```
+cd ..
+cd ..
+```
+- Next install all the required packages in the virtual env
+```
+pip install -r requirements.txt
+```
+- Now you are ready to run the program
+```
 python deep_q_network_actual.py
 ```
 
